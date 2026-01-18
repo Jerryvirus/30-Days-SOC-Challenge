@@ -28,12 +28,13 @@ The objective of this lab is to understand the **Windows Security Logs** and how
 
 ## Lab Task: Explore and Analyze Windows Security Logs
   **Step 1: Simulate a Failed Login Attempt**
+  
     - Create a test user name "haxuser1" on Windows machine.
     - Simulate a failed account access using this command Open PowerShell and enter an invalid username and password. You can do this by using the following command:
       ```cmd
         net use \\127.0.0.1\IPC$ /user:haxuser1 WrongPassword
       ```
-  Here:
+  - Here:
 | Command Part           | Explanation                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | `net use`              | A command used to connect to shared resources (like network shares or printers).              |
