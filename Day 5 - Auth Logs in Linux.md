@@ -52,7 +52,7 @@ A **brute force attack** attempts to guess a user’s SSH password by trying man
 
 > ⚠️ *Only perform on authorized systems you own or control.*
 
-### On the Attacker Machine:
+**On the Attacker Machine:**
 ```bash
 hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://TARGET-IP
 ```
