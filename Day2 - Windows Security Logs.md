@@ -56,4 +56,4 @@ Or Else you can sign out with your existing account and sign in with `haxuser1` 
       - Source Network Address
 
 ## Conclusion:
-    After completing these exercises, I gain experience in analysing various security logs such as login attempts, user account changes, and other critical system events that could indicate potential security threats.
+After completing these exercises, I gain experience in analysing various security logs such as login attempts, user account changes, and other critical system events that could indicate potential security threats.
