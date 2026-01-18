@@ -33,7 +33,7 @@ The objective of this lab is to understand the **Windows Security Logs** and how
         ```cmd
             net use \\127.0.0.1\IPC$ /user:haxuser1 WrongPassword
         ```
-    - Here:
+   - Here:
     
 | Command Part           | Explanation                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------|
