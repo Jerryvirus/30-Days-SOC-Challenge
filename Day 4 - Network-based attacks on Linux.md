@@ -42,8 +42,8 @@ A **port scan** is a technique used by attackers to probe a system for open port
 - To check the rule number `ufw status numbered`
 
 ## UFW Rule Syntax
-- Basic allow rule: ufw allow <port>
-- Deny a port: ufw deny <port>
+- Basic allow rule: ufw allow '<port>'
+- Deny a port: ufw deny '<port>'
 - Allow by service: ufw allow <service> (e.g., ufw allow ssh)
 - Allow by IP: ufw allow from <IP>
 - Allow specific port from IP: ufw allow from <IP> to any port <port>
