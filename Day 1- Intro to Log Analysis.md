@@ -39,11 +39,11 @@ Open #Group Policy Editor (gpedit.msc):
     - Go to `Applications` and `Services Logs → Microsoft → Windows → PowerShell → Operational`.
 
 **Step 1: Simulate a Suspicious PowerShell Command**
-  To simulate a suspicious activity, open an elevated PowerShell session and run the following command:
+  - To simulate a suspicious activity, open an elevated PowerShell session and run the following command:
     ```powershell
     Get-LocalUser | Select-Object Name, Enabled
     ```
-  This command lists all local user accounts on the system, which could be used by attackers to enumerate users post-exploitation.
+  - This command lists all local user accounts on the system, which could be used by attackers to enumerate users post-exploitation.
 
 **Step 2: Detect the Log in Windows Event Viewer**
   - Press `Win + R`, type eventvwr.msc, and press Enter.
