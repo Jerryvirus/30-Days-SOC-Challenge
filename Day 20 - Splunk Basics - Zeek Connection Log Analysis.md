@@ -1,6 +1,6 @@
 
 ## Objective
-In this lab, you will:
+In this lab, I will:
 - Learn how to upload and search Zeek connection logs in Splunk.
 - Find top clients, top servers, and most common services.
 - Identify large traffic and long connections.
@@ -10,7 +10,7 @@ In this lab, you will:
 - **Data Source**: JSON-formatted Zeek-style connection logs.
 - **Log File**: Download and upload to Splunk using the steps below.
 
-**[Download Zeek Conn Log File](https://raw.githubusercontent.com/0xrajneesh/30-Days-SOC-Challenge-Beginner/refs/heads/main/zeek_conn_logs.json)**
+**[Zeek Connection Log File](https://raw.githubusercontent.com/0xrajneesh/30-Days-SOC-Challenge-Beginner/refs/heads/main/zeek_conn_logs.json)**
 
 ## Steps to Upload Conn Log into Splunk
 1. Go to **Splunk Web → Settings > Add Data**.
